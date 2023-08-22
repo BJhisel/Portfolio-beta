@@ -1,0 +1,34 @@
+.social-media{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.github{
+    color: #fff;
+    margin: 0px 10px;
+}
+
+.linkedin{
+    color: #fff;
+}
+
+@media screen and (min-width:0) {
+    .social-media{
+        padding: 0px 5px;
+        justify-content: center;
+        display: none;
+    }
+}
+
+@media screen and (min-width:682px) {
+    .social-media{
+        padding: 0px 5px;
+        justify-content: space-between;
+        display: block;
+    }
+}

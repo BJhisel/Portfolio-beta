@@ -1,0 +1,21 @@
+
+.principal-resume{
+    margin-top: 10px;
+    padding-right: 20%;
+    padding-left: 20%;
+    color: #1A181B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.200em;
+    font-style: normal;
+    line-height: 103.332%;
+    letter-spacing: -0.00438rem;
+}
+
+
+@media (max-width: 510px) {
+    .principal-resume{
+        font-size: 0.900rem;
+        left: 50%;
+    }
+}   

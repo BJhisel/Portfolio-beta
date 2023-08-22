@@ -1,0 +1,22 @@
+.container-projects {
+    padding: 10% 30% 4% 30%;
+    background: linear-gradient(358deg, #1a1818 0%, #e9e9e7 100%);
+    width: 100%;
+    box-sizing: border-box;
+}
+.padding{
+    display: flex;
+}
+
+
+@media (max-width: 768px) {
+    .padding {
+        flex-direction: column; 
+    }
+    
+    .card {
+        width: 100%; 
+        margin: 10px 0;
+    }
+}
+

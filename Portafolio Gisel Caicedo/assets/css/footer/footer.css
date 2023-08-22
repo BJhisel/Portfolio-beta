@@ -1,0 +1,36 @@
+footer {
+    font-family: Montserrat;
+    background-color: #19191b;
+    color: #dadada;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .social-icons {
+        width: 100%; 
+    }
+}
